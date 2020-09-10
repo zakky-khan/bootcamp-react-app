@@ -1,6 +1,7 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
+import Dinner from './dinner.js' ;
 
 function App() {
   return (
@@ -9,6 +10,7 @@ function App() {
         <img src={logo} className="App-logo" alt="logo" />
         <p>
            <code>hello  world from zakky</code> z.
+           <Dinner />
         </p>
         <a
           className="App-link"
@@ -19,6 +21,7 @@ function App() {
           Learn React
         </a>
       </header>
+      <Dinner />
     </div>
   );
 }
