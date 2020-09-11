@@ -21,7 +21,7 @@ function App() {
           Learn React
         </a>
       </header>
-      <Dinner />
+      <Dinner dishName="chicken karahi" />
     </div>
   );
 }
